@@ -1,0 +1,131 @@
+/* Adiciona uma imagem de fundo ao corpo do site */
+body {
+    background-image: url('imagem/fundo.jpg'); /* Substitua pelo caminho da sua imagem */
+    background-size: cover; /* Faz a imagem cobrir todo o fundo */
+    background-position: center; /* Centraliza a imagem */
+    background-attachment: fixed; /* Mantém a imagem fixa enquanto rola o conteúdo */
+    background-repeat: no-repeat; /* Evita que a imagem se repita */
+    margin: 0; /* Remove a margem padrão do corpo */
+    padding: 0; /* Remove o padding padrão do corpo */
+    font-family: 'Arial', sans-serif; /* Define a fonte padrão */
+    font-size: 16px; /* Tamanho da fonte padrão */
+    line-height: 1.5; /* Altura da linha padrão */
+    color: #333; /* Cor padrão do texto */
+}
+
+/* Adiciona estilos ao cabeçalho */
+header {
+    background-color: rgba(255, 255, 255, 0.8); /* Fundo branco semi-transparente */
+    padding: 10px;
+    text-align: center; /* Centraliza o texto no cabeçalho */
+}
+
+/* Estiliza a navegação */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center; /* Centraliza a lista de navegação */
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333; /* Cor dos links de navegação */
+    font-weight: bold; /* Destaca os links */
+}
+
+/* Estilo para o título principal */
+h1 {
+    font-size: 2.5em; /* Ajuste o tamanho conforme necessário */
+    color: #F5A9B8; /* Rosa Claro */
+    font-family: 'Georgia', serif; /* Fonte elegante */
+    text-align: center; /* Centraliza o texto */
+    margin-bottom: 20px; /* Espaço abaixo do título */
+    font-weight: bold; /* Deixa o título em negrito */
+}
+
+/* Estilo para os subtítulos */
+h2 {
+    font-size: 2em; /* Ajuste o tamanho conforme necessário */
+    color: #F5A9B8; /* Rosa Claro */
+    font-family: 'Georgia', serif; /* Fonte elegante */
+    margin-bottom: 15px; /* Espaço abaixo do subtítulo */
+    font-weight: bold; /* Deixa o subtítulo em negrito */
+}
+
+/* Estilo para os sub-subtítulos */
+h3 {
+    font-size: 1.5em; /* Ajuste o tamanho conforme necessário */
+    color: #F5A9B8; /* Rosa Claro */
+    font-family: 'Georgia', serif; /* Fonte elegante */
+    margin-bottom: 10px; /* Espaço abaixo do sub-subtítulo */
+    font-weight: bold; /* Deixa o sub-subtítulo em negrito */
+}
+
+/* Estilo para o texto dos parágrafos */
+p {
+    font-size: 1em; /* Ajuste o tamanho conforme necessário */
+    color: #333; /* Cor do texto */
+    font-family: 'Georgia', serif; /* Fonte elegante */
+    line-height: 1.6; /* Altura da linha para melhor legibilidade */
+}
+
+/* Estiliza as seções */
+section {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9); /* Fundo branco semi-transparente */
+    border-radius: 8px; /* Bordas arredondadas */
+    margin: 20px auto; /* Espaçamento automático nas laterais */
+    max-width: 1200px; /* Limita a largura máxima */
+}
+
+/* Estiliza o rodapé */
+footer {
+    background-color: rgba(255, 255, 255, 0.8); /* Fundo branco semi-transparente */
+    padding: 10px;
+    text-align: center; /* Centraliza o texto no rodapé */
+}
+
+/* Estiliza imagens dentro de figuras */
+figure {
+    margin: 0;
+    padding: 0;
+    text-align: center; /* Centraliza o texto da legenda */
+}
+
+figure img {
+    max-width: 100%; /* Faz a imagem se ajustar ao tamanho do container */
+    height: auto; /* Mantém a proporção da imagem */
+}
+
+/* Cores específicas para IDs */
+#p_azul {
+    color: blue;
+}
+
+#p_vermelho {
+    color: red;
+}
+
+#p_verde {
+    color: green;
+}
+
+.centro {
+    text-align: center;
+}
+
+/* Estilo para texto em negrito */
+strong {
+    font-weight: bold; /* Aplica negrito */
+}
+
+/* Estilo para texto em itálico */
+em {
+    font-style: italic; /* Aplica itálico */
+}

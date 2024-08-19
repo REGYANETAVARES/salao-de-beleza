@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - Salão de Beleza e Estética</title>
+    <link rel="stylesheet" href="estilo.css">
+    <style>
+     
+        #mapa iframe {
+            width: 100%;
+            height: 100%;
+            border: 0;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 15px;
+        }
+        header img {
+            max-width: 200px;
+            height: auto;
+        }
+        .contact-icon {
+            width: 24px;
+            height: 24px;
+            vertical-align: middle;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="imagem/salao.jpg" alt="Logotipo do Salão">
+        <h1>Salão de Beleza e Estética</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="servicos.html">Serviços</a></li>
+                <li><a href="sobre.html">Sobre Nós</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <section id="informacoes-contato">
+            <h2>Entre em Contato Conosco</h2>
+            <p>Estamos aqui para ajudá-lo! Entre em contato conosco através dos seguintes meios:</p>
+            <ul>
+                <li><strong>Telefone:</strong> (11) 1234-5678 <img src="imagem/tele.jpg" alt="Ícone de telefone" class="contact-icon"></li>
+                <li><strong>Email:</strong> contato@salonexemplo.com.br <img src="imagem/email.jpg" alt="Ícone de e-mail" class="contact-icon"></li>
+                <li><strong>Endereço:</strong> Rua Exemplo, 123 - Cidade, Estado</li>
+                <li><strong>Redes Sociais:</strong> 
+                    <a href="#"><img src="imagem/insta.jpg" alt="Instagram" class="contact-icon"></a> | 
+                    <a href="#"><img src="imagem/face.jpg" alt="Facebook" class="contact-icon"></a>
+                </li>
+            </ul>
+        </section>
+
+        <section id="formulario-contato">
+            <h2>Envie uma Mensagem</h2>
+            <form action="enviar_mensagem.php" method="post">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="telefone">Telefone:</label>
+                <input type="tel" id="telefone" name="telefone">
+
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+
+        <section id="mapa">
+            <h2>Localização</h2>
+            <p>Veja onde estamos localizados:</p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.1947025943947!2d-46.655288684505066!3d-23.597303984666515!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59cecf7f8f93%3A0xb0b7f78f85fbfd63!2sRua%20Exemplo%2C%20123%20-%20Cidade%2C%20Estado!5e0!3m2!1spt-BR!2sbr!4v1619125150612!5m2!1spt-BR!2sbr" allowfullscreen="" loading="lazy"></iframe>
+            <!-- Imagem adicional da localização -->
+            <img src="imagem/cabeleleiro.jpg" alt="Imagem do Salão" style="width: 100%; height: auto;">
+        </section>
+    </div>
+
+    <footer>
+        <p>Endereço: Rua Exemplo, 123 - Cidade, Estado</p>
+        <p>Telefone: (11) 1234-5678</p>
+        <p>Redes Sociais: <a href="#"><img src="imagem/insta.jpg" alt="Instagram" class="contact-icon"></a> | <a href="#"><img src="imagem/face.jpg" alt="Facebook" class="contact-icon"></a></p>
+    </footer>
+</body>
+</html>
